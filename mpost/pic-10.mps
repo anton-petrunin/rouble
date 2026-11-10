@@ -2,7 +2,7 @@
 %%BoundingBox: -35 -42 65 42 
 %%HiResBoundingBox: -34.62093 -41.69044 64.82405 41.69044 
 %%Creator: MetaPost 2.02
-%%CreationDate: 2026.11.09:1512
+%%CreationDate: 2026.11.10:1448
 %%Pages: 1
 %%DocumentResources: procset mpost-minimal
 %%+ font ORMKKB-CMR10 KNJFED-CMMI10 KNJFED-CMSY10
@@ -779,7 +779,7 @@ cleartomark
  /cmsy10 /YMBJSE-CMSY10 def
 %%EndSetup
 %%Page: 1 1
- 0.7 setgray
+ 0.8 setgray
 newpath 19.84229 28.0615 moveto
 4.34435 39.02011 -17.1029 35.34026 -28.06152 19.84232 curveto
 -39.02014 4.34438 -35.34029 -17.10287 -19.84235 -28.0615 curveto
@@ -802,25 +802,6 @@ newpath 19.84229 28.0615 moveto
 newpath 19.84746 -28.06932 moveto
 22.95157 -25.87447 25.74158 -23.1232 28.06152 -19.84229 curveto
 39.02011 -4.34439 35.34026 17.10286 19.84236 28.06145 curveto stroke
- 1 1 1 setrgbcolor
-newpath 14.52899 0 moveto
-14.52899 5.31343 lineto
-19.84242 5.31343 lineto
-19.84242 0 lineto
- closepath fill
- 0 0 0 setrgbcolor [] 0 setdash
-newpath 14.52899 0 moveto
-14.52899 5.31343 lineto
-19.84242 5.31343 lineto stroke
-newpath 0 0 moveto
-39.68484 0 lineto stroke
- 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
-newpath 19.84242 -28.06145 moveto
-19.84242 28.06145 lineto stroke
-newpath 9.92122 -1.99252 moveto
-9.92122 1.99252 lineto stroke
-newpath 29.76364 -1.99252 moveto
-29.76364 1.99252 lineto stroke
 newpath 1.75 0 moveto
 1.75 0.46416 1.5656 0.90924 1.23741 1.23741 curveto
 0.90924 1.5656 0.46416 1.75 0 1.75 curveto
@@ -840,26 +821,6 @@ newpath 1.25 0 moveto
 -0.64946 -1.11829 -0.33154 -1.25 0 -1.25 curveto
 0.33154 -1.25 0.64946 -1.11829 0.88387 -0.88387 curveto
 1.11829 -0.64946 1.25 -0.33154 1.25 0 curveto closepath fill
- 0 0 0 setrgbcolor
-newpath 21.59242 0 moveto
-21.59242 0.46416 21.40802 0.90924 21.07983 1.23741 curveto
-20.75166 1.5656 20.30658 1.75 19.84242 1.75 curveto
-19.37827 1.75 18.93318 1.5656 18.60501 1.23741 curveto
-18.27682 0.90924 18.09242 0.46416 18.09242 0 curveto
-18.09242 -0.46416 18.27682 -0.90924 18.60501 -1.23741 curveto
-18.93318 -1.5656 19.37827 -1.75 19.84242 -1.75 curveto
-20.30658 -1.75 20.75166 -1.5656 21.07983 -1.23741 curveto
-21.40802 -0.90924 21.59242 -0.46416 21.59242 0 curveto closepath fill
- 1 setgray
-newpath 21.09242 0 moveto
-21.09242 0.33154 20.96071 0.64946 20.72629 0.88387 curveto
-20.49188 1.11829 20.17397 1.25 19.84242 1.25 curveto
-19.51088 1.25 19.19296 1.11829 18.95856 0.88387 curveto
-18.72414 0.64946 18.59242 0.33154 18.59242 0 curveto
-18.59242 -0.33154 18.72414 -0.64946 18.95856 -0.88387 curveto
-19.19296 -1.11829 19.51088 -1.25 19.84242 -1.25 curveto
-20.17397 -1.25 20.49188 -1.11829 20.72629 -0.88387 curveto
-20.96071 -0.64946 21.09242 -0.33154 21.09242 0 curveto closepath fill
  0 0 0 setrgbcolor
 newpath 41.43484 0 moveto
 41.43484 0.46416 41.25044 0.90924 40.92226 1.23741 curveto
@@ -939,7 +900,7 @@ newpath 21.09242 28.06145 moveto
 (;) cmmi10 9.96265 fshow
 35.2259 40.89345 moveto
 (p) cmsy10 9.96265 fshow
- 0 0.3985 dtransform truncate idtransform setlinewidth pop
+ 0 0.3985 dtransform truncate idtransform setlinewidth pop [] 0 setdash
 newpath 43.5281 41.09274 moveto
 48.5095 41.09274 lineto stroke
 43.5281 32.65215 moveto

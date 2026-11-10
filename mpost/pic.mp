@@ -31,17 +31,12 @@ p1=arc(z.t,z.l,z.b);
 p2=z.b{z.b zscaled(0,1)}..z.rr..{z.t zscaled(0,1)}z.t;
 p3=arc(z.t,z.r,z.b);
 
-fill p1--p2--cycle withcolor .7;
+fill p1--p2--cycle withcolor .8;
 draw p1--p2--cycle;
 draw p3 dashed evenly;
 
-mark_rt_angle(z.o, z.e, z.t);
-draw z.o--2*z.e;
-draw z.b--z.t;
-rimmark(z.o--z.e,z.e--2*z.e);
 
-
-dOt z.o,z.e,2*z.e,z.b,z.t;
+dOt z.o,2*z.e,z.b,z.t;
 
 label.lft(btex {$(0,0)$} etex, z.o);
 label.rt(btex {$(2,0)$} etex, 2*z.e);
